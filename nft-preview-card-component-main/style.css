@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    background-color: hsl(217, 54%, 11%);
+
+}
+.container{
+    width: 23vw;
+    height: auto;
+    overflow: hidden;
+    padding: 13px;
+    max-width: 30ch;
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+span{
+   
+        color: hsl(215, 51%, 70%);
+
+}
+.wrapper > .cube{
+    width: 100%;
+    height: auto;
+    margin-bottom:15px ;
+    border-radius: 8px;
+    
+}
+
+.wrapper > .flex-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.flex-items #eth{
+    color: hsl(178, 100%, 50%);
+
+}
+.wrapper > .block-text{
+    display: inline-block;
+}
+
+.wrapper > .margin-element{
+    margin-bottom:15px ;
+    margin-top: 15px;
+}
+
+
+#avatar{
+    width: 20px;
+    height: auto;
+}
+#name{
+    color: white;
+}
+hr{
+    background-color:  hsl(215, 51%, 70%);
+    height: 1px;
+
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    
+}
+#name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    
+}
+@media(max-width: 500px){
+  .container{
+    width: 75vw;
+  }
+}
+@media(max-width: 800px){
+    .container{
+      width: 75vw;
+    }
+  }
+  @media(max-width: 842px){
+    .container{
+      width: 75vw;
+    }
+  }
+  @media(max-width: 450px){
+    .container{
+      width: 90vw;
+    }
+  }
